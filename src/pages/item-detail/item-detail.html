@@ -1,0 +1,23 @@
+<ion-header>
+  <ion-navbar color="secondary">
+    <ion-title>
+      {{title}}
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <ion-card>
+    <ion-card-content>
+      {{description}}
+      <ion-row>
+        <ion-col>
+          <button ion-button full (click)="call()">CALL</button>
+        </ion-col>
+        <ion-col>
+          <button ion-button full color="secondary" (click)="messege()">SMS</button>
+        </ion-col>
+      </ion-row>
+    </ion-card-content>
+  </ion-card>
+</ion-content>
